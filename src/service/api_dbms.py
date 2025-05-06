@@ -8,10 +8,10 @@ CORS(app)
 # Database connection function
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="mysql",
-        database="reactkbc"
+        host="",
+        user="",
+        password="",
+        database=""
     )
 
 # User Signup (Only username is needed)
