@@ -1,0 +1,87 @@
+.dashboardstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .loginstyle {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .formstyle {
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #07284c; /* Electric blue */
+    color: #ffff; /* Default text color */
+  }
+  
+  .navbar {
+    color: black;
+    background-color: rgba(89, 89, 165, 0.4); /* Darker blue for navbar */
+    padding: 10px;
+  }
+  
+  .navbar a {
+    padding: 10px 20px;
+    color: #fff; /* White text for navbar links */
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar a:hover {
+    color: rgb(90, 152, 227);
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background for header */
+    color: #007BFF; /* Electric blue text for header */
+  }
+  
+  .button {
+    background-color: #66B2FF; /* Light blue for buttons */
+    color: #fff; /* White text for buttons */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .button:hover {
+    background-color: #074889; /* Darker light blue on hover */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #60606d; /* White borders for table */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #0056b3; /* Darker blue for table header */
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #ffff; /* Light transparent white for even rows */
+  }
